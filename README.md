@@ -20,6 +20,10 @@ To view the full details, run the [Example.html](https://github.com/BaseMax/Rand
 ```
 proxy.get(function(data)
 {
+  //data.ip
+  //data.port
+  //data.country
+  //....
   console.log(data);
 });
 ```
