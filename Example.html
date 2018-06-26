@@ -16,5 +16,19 @@
 			<div id="data_result">
 			</div>
 		</div>
+		<script type="text/javascript">
+		var loading=document.querySelector("#loading");
+		var data_result=document.querySelector("#data_result");
+		function get()
+		{
+			loading.innerHTML="<b>Loading....</b>";
+			proxy.get(function(data)
+			{
+				loading.innerHTML="";
+				data_result.innerHTML="IP : " + data.ip + "<br>Port : " + data.port + "<br>Country : " + data.country + "<br>";
+				data_result.innerHTML+="<hr><code>" + JSON.stringify(data) + "</code>";
+			});
+		}
+		</script>
 	</body>
 </html>
