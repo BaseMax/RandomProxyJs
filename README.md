@@ -9,7 +9,7 @@ Tiny and Powerful Library for get random proxy (free).
 
   - Compact
   - No dependencies
-  - Free API
+  - Free API (2 requests per second)
   - Definition Text,Image of Loading...
   - Based on `XMLHttpRequest`(Chrome, Firefox, IE7+, Edge, Safari Opera) ,`ActiveXObject`(IE5 and IE6)
   
