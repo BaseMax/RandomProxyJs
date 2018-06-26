@@ -30,4 +30,4 @@ proxy.get(function(data)
 
 # License
 
-CopyClipboard is licensed under the [GNU General Public License](https://github.com/BaseMax/CopyClipboardJs/blob/master/LICENSE).
+RandomProxy is licensed under the [GNU General Public License](https://github.com/BaseMax/RandomProxyJs/blob/master/LICENSE).
