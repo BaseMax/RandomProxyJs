@@ -23,7 +23,7 @@ proxy.get(function(data)
   //data.ip
   //data.port
   //data.country
-  //....
+  //...
   console.log(data);
 });
 ```
