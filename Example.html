@@ -24,9 +24,16 @@
 			loading.innerHTML="<b>Loading....</b>";
 			proxy.get(function(data)
 			{
-				loading.innerHTML="";
-				data_result.innerHTML="IP : " + data.ip + "<br>Port : " + data.port + "<br>Country : " + data.country + "<br>";
-				data_result.innerHTML+="<hr><code>" + JSON.stringify(data) + "</code>";
+				if(data !== null && data !=undefined && typeof data === 'object')
+				{
+					loading.innerHTML="";
+					data_result.innerHTML="IP : " + data.ip + "<br>Port : " + data.port + "<br>Country : " + data.country + "<br>";
+					data_result.innerHTML+="<hr><code>" + JSON.stringify(data) + "</code>";
+				}
+				else
+				{
+					loading.innerHTML="Error!";
+				}
 			});
 		}
 		</script>
