@@ -16,7 +16,7 @@ Tiny and Powerful Library for get random proxy (free).
   
 
 
-If the API address has changed. , This repository will be updated.
+If the API address has changed , This repository will be updated.
 use the new version.
 
 
