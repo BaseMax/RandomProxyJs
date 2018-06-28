@@ -13,6 +13,13 @@ Tiny and Powerful Library for get random proxy (free).
   - Definition Text,Image of Loading...
   - Based on `XMLHttpRequest`(Chrome, Firefox, IE7+, Edge, Safari Opera) ,`ActiveXObject`(IE5 and IE6)
   
+  
+
+
+If the API address has changed. , This repository will be updated.
+use the new version.
+
+
 ## Samples
 
 To view the full details, run the [Example.html](https://github.com/BaseMax/RandomProxyJs/blob/master/Example.html) file.
